@@ -1,0 +1,13 @@
+Log opened 2017-10-05 17:51:00 
+
+2017-10-05 17:51:00 RNA-Seq Data:
+Running `script_extract_rna_seq_data.R`
+NCBI Gene data saved as `genes_ncbi` in data/processed/ folder.
+NCBI Transcript data saved as `transcripts_ncbi` in data/processed/ folder.
+Intron data saved as `introns_raw` in data/processed/ folder.
+
+
+Log closed 2017-10-05 19:32:55
+
+***
+Notes:

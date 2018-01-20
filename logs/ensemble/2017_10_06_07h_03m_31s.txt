@@ -1,0 +1,2915 @@
+Log opened 2017-10-06 07:03:31 
+
+2017-10-06 07:03:31 Running `fit_ensemble()`...
+Setting seed to 100 
+Modelling results provided by `all_results`.
+$names
+[1] "clinical_only" "genes"         "transcripts"   "introns"      
+
+$survival_type
+[1] "OS"
+
+$seed
+[1] 100
+
+$training_index
+  [1]   1   3   5   7   9  11  13  15  17  19  21  23  25  27  29  31  33  35  37  39
+ [21]  41  43  45  47  49  51  53  55  57  59  61  63  65  67  69  71  73  75  77  79
+ [41]  81  83  85  87  89  91  93  95  97  99 101 103 105 107 109 111 113 115 117 119
+ [61] 121 123 125 127 129 131 133 135 137 139 141 143 145 147 149 151 153 155 157 159
+ [81] 161 163 165 167 169 171 173 175 177 179 181 183 185 187 189 191 193 195 197 199
+[101] 201 203 205 207 209 211 213 215 217 219 221 223 225 227 229 231 233 235 237 239
+[121] 241 243 245 247 249 251 253 255 257 259 261 263 265 267 269 271 273 275 277 279
+[141] 281 283 285 287 289 291 293 295 297 299 301 303 305 307 309 311 313 315 317 319
+[161] 321 323 325 327 329 331 333 335 337 339 341 343 345 347 349 351 353 355 357 359
+[181] 361 363 365 367 369 371 373 375 377 379 381 383 385 387 389 391 393 395 397 399
+[201] 401 403 405 407 409 411 413 415 417 419 421 423 425 427 429 431 433 435 437 439
+[221] 441 443 445 447 449 451 453 455 457 459 461 463 465 467 469 471 473 475 477 479
+[241] 481 483 485 487 489 491 493 495 497
+
+
+
+ =================================================================
+Bag 1 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 87 of 249)1 2 4 6 12 13 14 17 24 25 28 29 34 37 38 39 40 42 44 46 48 49 54 56 57 61 63 66 67 71 76 78 79 81 84 85 91 92 94 96 101 102 106 107 108 113 119 125 127 128 130 131 132 133 136 139 140 141 147 154 159 160 161 164 170 180 185 189 191 196 199 202 205 207 212 213 217 218 224 225 233 234 235 243 244 246 249 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 1/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 1/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 8
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.01708344, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.06724516, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 1/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.005012658, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.9, lambda = 0.004204744, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 1/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.01896473, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.04077615, from 10-fold cv.
+
+
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              5.148138        3.114746         3.152022           3.39912
+LPS5            -15.589788      -18.835597       -18.835597         -15.58979
+LPS2             -8.777163      -17.719611       -17.719611         -17.71961
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          3.366703              2.788989               2.750737
+LPS5        -18.835597            -18.358699             -18.358699
+LPS2        -17.719611            -17.719611             -17.719611
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                2.827337                2.844839          3.015955
+LPS5              -18.879685              -18.879685        -18.358699
+LPS2              -17.719611              -17.719611        -17.719611
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           3.056734            2.682796            2.908617
+LPS5         -18.358699          -18.358699          -18.358699
+LPS2         -17.719611          -17.719611          -17.719611
+genes_pls_model 
+ =================================================================
+Bag 2 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 87 of 249)1 3 4 7 8 10 16 19 20 22 23 24 33 34 35 39 40 41 43 45 46 48 59 61 65 66 71 74 76 77 78 80 88 94 103 107 109 114 122 126 128 131 132 134 138 139 140 141 144 148 150 152 153 155 157 159 163 166 168 174 176 180 181 182 184 190 193 194 197 202 203 206 207 208 210 211 213 218 220 225 226 229 232 234 235 238 249 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 2/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 2/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.002468409, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.02142581, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 2/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.003587726, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.9, lambda = 0.00397835, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 2/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 9
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.006793872, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.2, lambda = 0.02129087, from 10-fold cv.
+
+
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              5.998224        3.367691         3.363535          3.605137
+LPS5             -3.253835       -7.514524        -7.514524        -11.407452
+LPS2             -1.080750        0.000000         0.000000         -8.118289
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          3.262699              2.574114               2.574114
+LPS5        -11.407452            -11.407452             -11.407452
+LPS2        -14.000000             -1.784098              -1.784098
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                 2.00538                2.009967          2.881188
+LPS5               -11.20950              -11.209503         -9.057414
+LPS2               -14.00000              -14.000000        -14.000000
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           2.708116            2.386137            2.412101
+LPS5          -9.057414           -7.501322           -7.501322
+LPS2         -14.000000          -14.000000          -14.000000
+transcripts_lasso_model 
+ =================================================================
+Bag 3 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 94 of 249)1 2 3 5 7 10 11 12 16 18 25 27 29 30 31 33 38 40 41 42 47 50 52 53 54 56 58 64 65 68 70 73 74 77 78 80 84 89 90 97 98 100 102 103 106 107 109 115 119 120 122 124 127 133 136 138 141 143 144 145 149 155 156 159 165 167 172 173 174 183 185 188 189 193 195 197 198 202 203 205 209 210 215 216 219 220 222 223 224 231 233 237 246 249 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 3/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 3/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.006388358, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.9, lambda = 0.002214228, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 3/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.002852951, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.6, lambda = 0.006571785, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 3/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.003900138, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.03715387, from 10-fold cv.
+
+
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              5.478459        3.562817         3.573017          3.587826
+LPS5             -5.643689      -13.402401       -13.402401        -13.402401
+LPS2             -5.775507      -20.062677       -20.062677        -15.805831
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          3.891212              3.925151               3.942462
+LPS5        -12.742593            -10.545580             -10.545580
+LPS2        -20.501457            -20.062677             -20.062677
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                2.772039                2.928524          3.186209
+LPS5              -12.742593              -10.545580        -11.321930
+LPS2              -14.853569              -14.853569        -20.062677
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           3.165244            3.367680            2.760323
+LPS5         -11.321930          -11.321930          -11.321930
+LPS2         -20.062677           -9.738406          -12.876742
+genes_pls_model 
+ =================================================================
+Bag 4 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 84 of 249)3 4 5 7 16 18 21 24 27 32 34 38 47 48 51 53 58 59 61 65 76 77 80 82 83 90 91 94 99 100 102 103 104 109 112 119 120 123 124 131 132 145 146 152 153 154 157 161 162 165 166 169 170 173 176 177 178 180 181 182 185 186 187 191 192 197 200 201 202 206 207 211 215 219 221 222 223 228 230 233 234 237 239 249 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 4/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 4/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.006425729, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.04219203, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 4/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.002204951, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.4, lambda = 0.005763245, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 4/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.003507501, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.5, lambda = 0.007334256, from 10-fold cv.
+
+
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              5.537418        2.770845         2.742939          2.960909
+LPS5             -9.265938       -9.224236        -9.224236         -9.224236
+LPS2              0.000000      -13.000000       -13.000000        -16.382022
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          2.949179              2.541553               2.541553
+LPS5        -12.101869            -12.101869             -12.101869
+LPS2        -16.382022            -16.382022             -16.382022
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                1.936904                1.938288          2.608024
+LPS5              -12.101869              -12.101869        -12.101869
+LPS2              -16.382022              -16.382022        -16.382022
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           2.609622            2.868507            2.777437
+LPS5         -12.101869          -11.815271          -11.815271
+LPS2         -16.382022          -13.000000          -13.000000
+transcripts_lasso_model 
+ =================================================================
+Bag 5 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 95 of 249)6 7 8 9 11 15 17 19 21 22 23 31 38 40 44 46 53 54 57 58 59 62 63 65 67 69 70 71 73 77 78 80 81 82 83 88 90 93 94 96 99 100 101 102 104 105 106 109 112 114 115 119 120 123 135 138 142 146 147 149 151 153 155 156 157 159 163 164 165 170 178 179 181 183 184 185 189 199 202 203 206 210 212 215 224 226 234 235 236 237 239 240 243 245 249 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 5/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 5/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.005386263, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.3, lambda = 0.008512559, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 5/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.003557502, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.9, lambda = 0.004132671, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 5/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.00500462, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.7, lambda = 0.004917939, from 10-fold cv.
+
+
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE             6.2839648         3.20284         3.226924          4.149168
+LPS5            -0.2072975       -13.11049       -13.110494        -15.805831
+LPS2            -3.4147666         0.00000         0.000000        -15.000000
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          4.046302               3.08563               3.094137
+LPS5        -20.501457             -13.11049             -13.110494
+LPS2        -15.000000             -15.00000             -15.000000
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                3.003392                2.976216          2.979087
+LPS5              -20.501457              -20.501457        -13.110494
+LPS2                0.000000                0.000000        -15.000000
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           2.979087             3.09864            3.186285
+LPS5         -13.110494           -13.11049          -13.110494
+LPS2         -15.000000           -15.00000          -15.000000
+genes_elnet_model 
+ =================================================================
+Bag 6 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 87 of 249)10 23 25 26 29 32 33 35 36 40 48 49 52 55 56 62 63 64 65 66 72 73 74 75 79 82 83 85 87 88 90 91 92 97 98 101 102 107 108 110 111 113 115 116 118 119 120 127 129 130 132 135 137 140 143 148 149 150 160 161 163 164 170 173 174 180 182 184 185 190 192 205 208 213 217 218 220 221 222 224 226 231 233 238 239 245 249 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 6/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 6/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.002651086, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.5, lambda = 0.01222409, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 6/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.004135989, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.9, lambda = 0.006351513, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 6/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 9
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 9
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.01452927, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.7, lambda = 0.01719744, from 10-fold cv.
+
+
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              5.242234        3.417407         3.434629          4.510711
+LPS5              0.000000      -17.719611       -17.719611        -17.719611
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          3.921709              3.359414               3.418861
+LPS5        -17.719611              0.000000               0.000000
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                3.017203                2.701289          3.915632
+LPS5                0.000000               -5.778973         -5.778973
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           3.922431            2.753193             2.71440
+LPS5          -5.778973          -11.295333           -11.29533
+transcripts_elnet_model 
+ =================================================================
+Bag 7 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 96 of 249)11 12 13 15 18 22 29 36 37 40 41 47 49 54 55 56 59 63 64 70 73 75 77 79 81 83 84 86 88 90 94 95 97 99 100 101 107 108 109 111 112 115 120 124 125 126 130 131 134 139 140 142 143 144 145 150 151 154 155 157 160 161 164 166 167 173 174 175 177 182 183 189 190 192 194 195 196 199 201 202 206 208 210 211 214 215 217 223 230 231 232 241 242 243 248 249 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 7/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 7/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.009547096, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.02252863, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 7/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.003622976, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.03615694, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 7/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.00388211, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.8, lambda = 0.004842884, from 10-fold cv.
+
+
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              5.376757        3.425015          3.81924          3.665714
+LPS5              0.000000      -20.501457        -20.50146        -17.076825
+LPS2              0.000000      -15.000000        -15.00000        -15.000000
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          3.540067              3.564053               4.144744
+LPS5        -12.679853            -14.853569             -19.056657
+LPS2        -15.000000            -15.000000             -15.000000
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                3.483472                2.654981          3.278286
+LPS5              -19.056657              -19.056657        -15.805831
+LPS2              -15.000000              -15.000000        -15.000000
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           3.479091             3.54651            3.549819
+LPS5         -15.805831           -20.50146          -20.501457
+LPS2         -15.000000           -15.00000          -15.000000
+genes_pls_model 
+ =================================================================
+Bag 8 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 95 of 249)8 11 15 18 20 21 25 26 30 32 35 40 43 45 46 48 50 51 53 56 61 64 67 69 70 72 74 76 77 78 85 86 87 88 91 92 93 94 95 99 100 106 108 109 110 113 114 116 119 121 123 124 128 130 132 134 140 143 149 151 153 154 157 158 161 164 169 171 173 176 177 180 181 187 189 193 194 195 197 201 207 208 209 214 216 224 225 226 231 235 236 239 243 248 249 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 8/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 8/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.0093735, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.2, lambda = 0.01932678, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 8/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.003036313, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.03174496, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 8/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 9
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.003127284, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.3, lambda = 0.01089869, from 10-fold cv.
+
+
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              5.148887         2.86533         3.090179          2.908211
+LPS5             -6.276908       -20.34642       -20.346416        -20.346416
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          3.012752              2.644772                2.64617
+LPS5        -20.346416            -20.346416              -20.34642
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                 2.51802                2.321429          2.606642
+LPS5               -20.34642              -20.346416         -9.578120
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           2.680135            2.938407            2.810202
+LPS5          -9.578120           -9.578120           -9.578120
+genes_pls_model 
+ =================================================================
+Bag 9 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 90 of 249)2 5 6 13 14 17 18 22 24 25 26 27 28 32 34 38 39 43 44 46 49 52 60 62 65 71 76 77 79 80 83 87 93 96 107 111 113 116 119 121 122 123 124 128 130 133 134 135 136 137 138 140 148 150 152 154 156 161 165 166 170 171 172 174 175 177 178 181 182 183 187 189 195 202 203 204 206 208 210 211 216 219 220 224 228 229 231 241 244 245 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 9/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 9/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.03639069, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.2, lambda = 0.09918825, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 9/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 9
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.006293746, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.2, lambda = 0.03140547, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 9/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.01879926, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.4, lambda = 0.03894025, from 10-fold cv.
+
+
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              4.721923        2.643573         2.640981          2.562766
+LPS5            -13.289686      -16.212413       -16.212413        -14.854642
+LPS2            -10.498747      -12.679853       -12.679853        -12.679853
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          2.556768              2.226313               2.324584
+LPS5        -16.212413            -20.062677             -20.062677
+LPS2        -12.679853            -15.000000             -15.000000
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                2.495039                2.383761           2.20517
+LPS5              -20.062677              -20.062677         -14.85464
+LPS2               -4.182584               -3.414767         -12.67985
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE            2.20517            2.475435            2.376116
+LPS5          -14.85464          -14.854642          -14.854642
+LPS2          -12.67985          -12.679853          -10.498747
+transcripts_pls_model 
+ =================================================================
+Bag 10 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 91 of 249)1 2 3 6 7 9 10 13 21 25 28 29 32 33 35 37 41 43 44 45 47 48 50 51 52 53 54 56 58 63 67 69 70 71 73 76 81 83 84 85 87 88 89 97 100 101 105 107 109 111 113 117 121 127 130 136 149 151 154 155 159 162 166 167 173 174 175 189 196 201 202 204 209 212 213 214 218 220 224 225 229 233 234 235 239 240 242 244 246 247 248 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 10/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 10/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 6
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.01929138, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.04769017, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 10/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.01759545, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.6, lambda = 0.02017247, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 10/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 6
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 6
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.007966382, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.3, lambda = 0.03192083, from 10-fold cv.
+
+
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              5.154950        3.305203         3.353789          3.817838
+LPS5             -1.190323       -5.544617        -6.141100         -9.841886
+LPS2             -7.007762       -6.276908        -6.276908          0.000000
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          3.696499              3.028779               3.110741
+LPS5         -5.544617            -14.138698             -14.138698
+LPS2         -6.276908              0.000000              -6.276908
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                2.304387                2.238967          3.213863
+LPS5              -17.330451              -17.330451        -14.138698
+LPS2               -6.276908               -6.276908        -19.056657
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           3.220079            3.593458            3.081146
+LPS5         -14.138698           -6.818558           -6.818558
+LPS2         -19.056657          -19.056657          -19.056657
+transcripts_elnet_model 
+ =================================================================
+Bag 11 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 99 of 249)1 2 4 5 9 10 13 15 16 20 22 23 26 29 32 33 35 37 38 39 44 46 49 52 53 56 59 62 64 66 67 77 80 81 87 91 92 93 94 95 97 98 101 104 105 107 114 116 126 130 140 141 143 147 150 151 153 154 157 158 159 165 166 167 169 172 174 175 177 178 179 180 182 183 184 185 186 188 191 195 198 201 202 204 205 206 207 208 209 222 223 228 230 234 236 242 246 247 249 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 11/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 11/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.005143634, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.02803948, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 11/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.003769661, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.03941219, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 11/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.005021872, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.6, lambda = 0.006619581, from 10-fold cv.
+
+
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              6.277477        2.999380         3.067685          4.107135
+LPS5             -9.565108       -8.808978        -8.808978        -14.230507
+LPS2            -10.974275      -11.179883       -11.179883        -11.179883
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE           3.49518              2.968605               2.968605
+LPS5         -14.23051            -10.713262             -10.713262
+LPS2         -11.17988            -11.179883             -11.179883
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                2.785151                2.601176          2.647575
+LPS5              -19.778744              -20.693625        -14.230507
+LPS2              -11.179883              -11.179883         -4.071042
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           2.652607            3.403100            3.322073
+LPS5         -14.230507           -8.808978           -8.808978
+LPS2          -4.071042          -11.179883          -11.179883
+transcripts_elnet_model 
+ =================================================================
+Bag 12 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 95 of 249)1 2 3 7 9 11 13 25 26 30 32 36 38 39 40 42 43 44 48 53 57 58 61 65 67 68 70 71 74 76 77 83 86 87 90 92 94 96 98 107 113 114 115 117 118 120 122 123 127 132 134 137 138 139 140 141 145 146 147 148 150 152 154 155 156 157 158 162 164 169 172 179 180 182 184 187 189 190 192 195 200 201 203 205 208 209 213 217 219 221 229 235 236 237 245 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 12/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 12/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.002153042, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.2, lambda = 0.01125513, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 12/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.0023398, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.9, lambda = 0.002594552, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 12/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.008041959, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.2, lambda = 0.02640218, from 10-fold cv.
+
+
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              5.558805        3.353978         3.351582          3.948696
+LPS5             -8.861486       -8.717905        -8.717905        -15.479124
+LPS2             -4.146134       -1.221121        -1.221121         -4.741998
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          3.689128              3.315595               3.244627
+LPS5         -9.856730            -11.926973             -11.926973
+LPS2         -2.016748             -1.221121              -1.221121
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                3.443873                3.462807          2.678596
+LPS5              -18.199479              -18.199479        -10.029973
+LPS2               -1.221121               -1.221121         -6.451337
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           2.678596            2.625022            2.604429
+LPS5         -10.029973           -9.205628          -14.240254
+LPS2          -6.451337           -6.451337           -6.451337
+introns_elnet_model 
+ =================================================================
+Bag 13 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 91 of 249)2 4 10 17 19 22 25 27 29 31 32 33 34 39 43 54 55 58 60 61 63 65 66 70 74 76 80 81 82 84 90 94 100 101 102 103 105 106 108 109 112 114 116 120 121 123 124 132 138 141 142 145 153 154 157 159 160 161 167 170 173 174 175 178 179 180 181 188 189 190 195 199 201 205 209 210 211 215 221 224 229 230 232 235 238 240 241 246 247 248 249 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 13/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 13/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.002402731, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.4, lambda = 0.006280197, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 13/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.003395047, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.3, lambda = 0.01129408, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 13/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 9
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.004031352, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.04023249, from 10-fold cv.
+
+
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE               4.71126        2.789538         2.882243          2.950183
+LPS5             -20.34642      -20.501457       -20.501457        -20.501457
+LPS2             -12.67985       -6.276908        -6.276908         -9.578120
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          2.917577              3.134268               3.134268
+LPS5        -20.501457            -20.062677             -20.062677
+LPS2         -9.578120            -19.056657             -19.056657
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                3.511992                3.315009          3.316564
+LPS5              -20.501457              -20.501457        -20.062677
+LPS2              -19.056657              -19.056657        -19.056657
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE            3.34976            3.473327            3.218834
+LPS5          -20.06268          -20.062677          -19.258520
+LPS2          -19.05666          -19.056657          -19.056657
+genes_pls_model 
+ =================================================================
+Bag 14 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 83 of 249)5 8 10 12 16 18 20 21 24 28 38 40 43 45 48 51 52 59 64 66 68 69 70 78 84 85 87 93 98 106 108 109 110 112 114 115 116 117 118 120 125 126 134 141 142 145 147 150 153 157 162 166 167 169 171 173 174 175 179 181 185 186 190 191 192 194 200 203 214 216 217 218 219 221 222 232 233 237 238 241 242 245 247 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 14/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 14/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.005543305, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.2, lambda = 0.03490399, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 14/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.002878353, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.5, lambda = 0.008732095, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 14/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.01216382, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.03975097, from 10-fold cv.
+
+
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              5.111956        2.508084         2.771954          2.755659
+LPS5             -2.762045       -7.976166        -9.301657        -10.670706
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          2.456504              2.492011               2.529747
+LPS5        -10.839259            -17.323139             -17.323139
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                2.454619                 2.34943          2.128497
+LPS5              -17.323139               -17.32314        -17.323139
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           2.118848             2.17948            2.140994
+LPS5         -17.323139           -17.32314          -17.323139
+introns_spls_model 
+ =================================================================
+Bag 15 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 81 of 249)1 3 8 14 15 17 19 20 22 25 26 29 32 34 40 43 44 49 52 54 57 60 62 68 70 72 73 74 77 80 87 88 93 97 99 100 105 117 123 126 127 131 135 136 138 140 145 150 156 157 160 165 171 177 178 182 188 193 195 199 201 202 203 204 206 210 211 214 221 222 226 227 228 234 235 237 240 241 242 247 249 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 15/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 15/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.0103326, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.6, lambda = 0.01030297, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 15/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.006386412, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.5, lambda = 0.0101019, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 15/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.02010437, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.2, lambda = 0.06014013, from 10-fold cv.
+
+
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              4.740413        3.488977         3.580476          3.873803
+LPS5             -5.077105      -11.096539       -11.096539        -11.096539
+LPS2             -1.594242      -16.382022       -16.382022        -16.382022
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          4.080584              3.485575               3.485575
+LPS5        -11.096539            -11.096539             -11.096539
+LPS2        -16.382022             -7.976166              -7.976166
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                2.738881                2.730019          2.682594
+LPS5              -16.648575              -16.648575        -14.510507
+LPS2              -16.382022               -5.281381        -17.323139
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           2.649537            3.105424            2.961903
+LPS5         -14.510507          -14.510507          -15.702936
+LPS2         -17.323139          -16.382022          -16.382022
+introns_spls_model 
+ =================================================================
+Bag 16 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 92 of 249)2 3 4 11 14 19 26 27 28 30 32 33 36 40 41 48 51 52 54 56 62 63 64 66 67 72 74 75 76 77 78 79 83 84 85 88 94 100 103 104 105 109 110 112 115 118 119 124 125 126 129 130 131 132 135 136 137 141 144 153 157 158 163 164 167 171 173 178 181 184 189 192 196 197 202 203 206 207 209 211 213 215 216 219 223 227 234 235 240 241 242 247 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 16/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 16/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 9
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.002179791, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.0217541, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 16/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.003119515, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.2, lambda = 0.01556622, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 16/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.003452105, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.03445166, from 10-fold cv.
+
+
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              5.671162        3.030737         3.090856           3.90763
+LPS5            -11.235940      -18.199479       -18.199479         -19.25852
+LPS2             -7.175591      -12.437520       -12.437520         -14.85357
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE           3.57624              2.719587               2.704879
+LPS5         -19.25852            -18.199479             -18.199479
+LPS2         -12.43752            -15.805831             -15.805831
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                2.260035                2.061844          2.867621
+LPS5              -18.199479              -18.199479        -18.199479
+LPS2              -20.062677              -20.062677        -12.127116
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           2.862661            3.398919            3.014462
+LPS5         -18.199479          -18.199479          -18.199479
+LPS2         -12.127116           -9.578120          -20.346416
+transcripts_elnet_model 
+ =================================================================
+Bag 17 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 95 of 249)5 8 16 18 22 24 26 32 36 39 43 47 49 50 53 54 55 60 61 63 65 67 69 77 79 82 85 88 89 92 93 94 98 103 109 111 116 117 120 121 124 126 130 132 133 136 137 140 143 145 146 147 148 151 152 154 155 156 161 162 165 168 169 171 174 175 179 184 185 187 189 192 193 194 195 198 199 204 211 213 214 218 219 223 226 230 236 238 239 240 241 242 244 245 247 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 17/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 17/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.006491219, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.04465152, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 17/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.004723071, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.02697282, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 17/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.003626813, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.4, lambda = 0.009048806, from 10-fold cv.
+
+
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              4.760127       3.0826103         3.144309          3.700469
+LPS5            -17.330451     -15.1546918       -18.199479        -13.928121
+LPS2            -20.501457      -0.7204681        -6.276908         -6.334573
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          3.422812              2.783476               2.914227
+LPS5        -15.154692            -17.330451             -17.330451
+LPS2         -6.276908             -6.276908             -19.056657
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                2.985357                2.550508          2.911596
+LPS5              -17.330451              -13.518228        -15.154692
+LPS2              -15.805831              -15.805831          0.000000
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           2.836213            3.821246            3.549082
+LPS5         -14.311522          -19.258520          -19.258520
+LPS2           0.000000           -3.862997           -3.862997
+transcripts_elnet_model 
+ =================================================================
+Bag 18 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 94 of 249)5 6 13 14 15 22 27 28 30 38 45 47 49 50 54 57 58 59 62 65 66 73 75 79 80 81 82 83 86 87 89 92 93 95 98 99 102 106 110 115 117 118 120 121 127 128 129 131 133 136 137 138 139 147 151 152 157 160 161 162 169 175 176 177 180 182 183 184 185 186 187 188 189 193 194 197 199 204 206 208 211 212 216 217 220 223 231 232 233 234 236 239 241 248 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 18/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 18/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.002419308, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.3, lambda = 0.00804815, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 18/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 9
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 9
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.008038027, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.7, lambda = 0.003582012, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 18/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 9
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.03422162, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.8, lambda = 0.005263151, from 10-fold cv.
+
+
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+<simpleError in survdiff.fit(y, groups, strata.keep, rho): There is only 1 group>
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              4.554634        2.857193         2.857193          3.527104
+LPS5             -2.016748      -11.224483       -11.224483        -13.353702
+LPS2              0.000000      -15.000000       -15.000000         -8.919633
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          3.203682              2.505193               2.510876
+LPS5        -13.353702            -14.138698             -14.138698
+LPS2         -8.919633            -15.000000             -15.000000
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                2.299848                3.075391          2.130023
+LPS5               -8.855535               -8.855535        -13.353702
+LPS2              -15.000000              -15.000000        -15.000000
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           2.235994            2.183057            3.018903
+LPS5         -13.353702          -18.199479          -12.651490
+LPS2         -15.000000          -15.000000           -6.451337
+introns_lasso_model 
+ =================================================================
+Bag 19 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 93 of 249)1 4 10 12 16 17 18 23 29 30 37 44 46 49 50 55 57 61 62 63 67 69 70 71 74 76 79 81 83 84 89 92 94 96 97 98 101 105 113 114 116 118 124 125 127 129 130 131 132 133 135 139 142 143 144 146 147 154 157 158 159 165 167 169 170 171 176 177 180 183 184 188 190 193 197 198 199 200 201 203 205 207 210 212 219 222 226 233 238 240 245 246 249 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 19/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 19/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.002350987, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.0223962, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 19/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.01027052, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.1, lambda = 0.02919202, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 19/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.007292094, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.3, lambda = 0.01596022, from 10-fold cv.
+
+
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              5.334987        4.933984         4.933984          4.528136
+LPS5            -13.110494      -17.330451       -17.330451         -7.630866
+LPS2            -13.110494      -20.501457       -20.501457        -20.501457
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          4.020854              3.828588               5.424945
+LPS5        -20.501457            -13.825118             -15.396988
+LPS2        -20.501457            -20.501457             -20.346416
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                2.751702                2.692255           3.21307
+LPS5              -15.396988              -13.825118         -15.39699
+LPS2              -20.346416              -20.346416         -20.50146
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE            3.22519            2.895798            2.852823
+LPS5          -15.39699          -15.396988          -15.396988
+LPS2          -20.34642          -20.346416          -20.346416
+genes_pls_model 
+ =================================================================
+Bag 20 of 20 
+Resampling finished in 1 iterations.
+oob_index (n = 88 of 249)2 3 6 10 13 20 22 25 27 29 31 35 36 39 40 44 46 48 49 51 52 56 57 61 63 64 68 69 70 72 76 79 85 87 89 90 91 93 94 95 99 103 104 109 110 111 112 117 125 126 131 134 137 139 140 142 144 148 155 157 158 159 160 166 168 172 179 181 185 187 188 196 197 200 201 211 214 221 225 227 229 230 231 239 241 242 243 245 
+----------------------------------------------------------------
+Predictor set 1 of 4 (Bag 20/20) - clinical:
+	 x source     data/processed/clinical_predictors
+	 Model list   simple_model
+
+Fitting model 1 of 1.
+No censoring in the data; linear regression is computed as usual.
+
+
+----------------------------------------------------------------
+Predictor set 2 of 4 (Bag 20/20) - genes:
+	 x source     data/processed/genes_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 9
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 8
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.02018262, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.3, lambda = 0.01446491, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 3 of 4 (Bag 20/20) - transcripts:
+	 x source     data/processed/transcripts_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 8
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.004438875, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.4, lambda = 0.007996961, from 10-fold cv.
+
+
+----------------------------------------------------------------
+Predictor set 4 of 4 (Bag 20/20) - introns:
+	 x source     data/processed/introns_filtered_coxph_OS
+	 Model list   pls_model
+	              spls_model
+	              lasso_model
+	              elnet_model
+
+Fitting model 1 of 4.
+No censoring in the data; PLS is computed as usual.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 10
+
+Fitting model 2 of 4.
+No censoring in the data; SPLS is computed as usual.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+
+Fitting model 3 of 4.
+No censoring in the data; lasso is computed as usual.
+lasso: lambda = 0.00338441, from 10-fold cv.
+
+Fitting model 4 of 4.
+No censoring in the data; elastic net is computed as usual.
+elnet: alpha = 0.6, lambda = 0.005629346, from 10-fold cv.
+
+
+     clinical_simple_model genes_pls_model genes_spls_model genes_lasso_model
+RMSE              4.829803        3.156404         3.107267          2.842702
+LPS5            -15.479124       -9.362480       -15.479124         -9.362480
+LPS2             -4.741998      -12.679853       -12.679853        -20.346416
+     genes_elnet_model transcripts_pls_model transcripts_spls_model
+RMSE          3.289676               2.88510               3.058095
+LPS5        -12.334418             -12.52588             -12.525879
+LPS2        -20.346416             -12.67985             -12.679853
+     transcripts_lasso_model transcripts_elnet_model introns_pls_model
+RMSE                2.175839                2.263509          2.911771
+LPS5              -14.240254              -14.240254        -14.240254
+LPS2              -15.000000              -15.000000        -15.479124
+     introns_spls_model introns_lasso_model introns_elnet_model
+RMSE           2.924548            3.046992            2.973656
+LPS5         -14.240254          -16.942647          -16.942647
+LPS2         -17.076825           -8.329999          -13.379963
+genes_lasso_model 
+ =================================================================
+
+Bagging completed
+ Bags: genes_pls_model transcripts_lasso_model genes_pls_model transcripts_lasso_model genes_elnet_model transcripts_elnet_model genes_pls_model genes_pls_model transcripts_pls_model transcripts_elnet_model transcripts_elnet_model introns_elnet_model genes_pls_model introns_spls_model introns_spls_model transcripts_elnet_model transcripts_elnet_model introns_lasso_model genes_pls_model genes_lasso_model 
+Ensemble results saved to output/ensemble/ensemble_OS_2017_10_06_08h_45m_34s 
+
+
+Log closed 2017-10-06 08:45:35
+
+***
+Notes:
