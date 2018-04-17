@@ -6,18 +6,19 @@ log_file <- paste("logs/main/", timestamp(), ".txt", sep = "")
 open_log(log_file)
 cat(format(Sys.time()), "Running `main.R`...\n")
 
-# # For GitHub: Raw data is not provided, so the two steps below cannot be
-# # performed. Extracted patient data has been saved at data/patient_data, and 
-# # the processed RNA-Seq data files are stored in data/processed/.
+# # Optionally: download raw data, store in data/ folder, and rerun 
+# #             preprocessing steps:
 # cat("Processing the patient data using `patient_data.R`.\n")
-# create_patient_data()
+# create_patient_data(output_data_dir = "data/",
+#                     raw_data_dir = "data/raw/")
 # 
 # cat("Processing the raw data using `run_processing.R`.\n")
-# run_processing()
+# run_processing(processed_data_dir = "data/processed/",
+#                raw_data_dir = "data/raw/",
+#                threshold = 80,
+#                gene_cards_file = "data/gene_cards")
 
 seed <- 100
-
-
 
 
 cat("Begin fitting models.\n")
@@ -111,6 +112,8 @@ results_list <- list.files("output/results")
 ensemble(paste("output/results/", results_list[[1]], sep = ""))
 ensemble(paste("output/results/", results_list[[2]], sep = ""))
 
-generate_figures_and_tables()
+generate_figures_and_tables("output/results/",
+                            "output/figures/",
+                            "output/tables/")
 
 close_log()

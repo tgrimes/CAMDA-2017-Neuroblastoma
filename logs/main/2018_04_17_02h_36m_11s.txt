@@ -1,0 +1,4939 @@
+Log opened 2018-04-17 02:36:11 
+
+2018-04-17 02:36:11 Running `main.R`...
+Begin fitting models.
+Fitting model 1 of 1.
+Initialization: Fitting AFT model to uncensored observations.
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+-0.264015 -0.095923  0.072170  0.007745  0.143625  0.215081 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+	 Imputed dataset 2 of 5.
+	 Imputed dataset 3 of 5.
+	 Imputed dataset 4 of 5.
+	 Imputed dataset 5 of 5.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+	 Imputed dataset 2 of 5.
+	 Imputed dataset 3 of 5.
+	 Imputed dataset 4 of 5.
+	 Imputed dataset 5 of 5.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+	 Imputed dataset 2 of 5.
+	 Imputed dataset 3 of 5.
+	 Imputed dataset 4 of 5.
+	 Imputed dataset 5 of 5.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+	 Imputed dataset 2 of 5.
+	 Imputed dataset 3 of 5.
+	 Imputed dataset 4 of 5.
+	 Imputed dataset 5 of 5.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+	 Imputed dataset 2 of 5.
+	 Imputed dataset 3 of 5.
+	 Imputed dataset 4 of 5.
+	 Imputed dataset 5 of 5.
+
+Fitting model 1 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+       V1            
+ Min.   :-1.469e-03  
+ 1st Qu.:-4.900e-04  
+ Median :-5.054e-05  
+ Mean   : 5.646e-06  
+ 3rd Qu.: 4.686e-04  
+ Max.   : 1.610e-03  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+
+Fitting model 2 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.9, K = 1
+       V1            
+ Min.   :-0.2441060  
+ 1st Qu.: 0.0000000  
+ Median : 0.0000000  
+ Mean   : 0.0000117  
+ 3rd Qu.: 0.0000000  
+ Max.   : 0.2674994  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 2
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.9, K = 2
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.9, K = 2
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.9, K = 2
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 2
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.9, K = 2
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.9, K = 2
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.9, K = 2
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.9, K = 2
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.9, K = 2
+
+Fitting model 3 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+lasso: lambda = 0.1620313, from 10-fold cv.
+      Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+-0.2892281  0.0000000  0.0000000 -0.0002658  0.0000000  0.2923640 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.03895735, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.04187185, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.03405715, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.04788604, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.04688684, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.03935043, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.04591519, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.04572655, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.04227076, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.04816831, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.04701261, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.02752101, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.04145533, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.04093152, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.028035, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.05010208, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.0413794, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.03216015, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.04794694, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.04697444, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.04706398, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.04902549, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.06478389, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.04277434, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.04342198, from 10-fold cv.
+
+Fitting model 4 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 1.256711, from 10-fold cv.
+      Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+-0.2319099  0.0000000  0.0000000 -0.0001537  0.0000000  0.1074585 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.1037887, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.09214594, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.3381837, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.5588914, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.2743724, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.06128989, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.1408682, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.08501213, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.06436916, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.3169245, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.07796927, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.1154352, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.1406869, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.06632524, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.1389616, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.09390647, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.08328094, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.1111631, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.06995515, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.124485, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.4262947, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.272975, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.09951618, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.08071449, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.06946222, from 10-fold cv.
+
+Fitting model 1 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+       V1            
+ Min.   :-8.668e-04  
+ 1st Qu.:-4.132e-04  
+ Median :-1.173e-04  
+ Mean   :-1.696e-05  
+ 3rd Qu.: 3.679e-04  
+ Max.   : 1.108e-03  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+
+Fitting model 2 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 2
+       V1            
+ Min.   :-0.0269055  
+ 1st Qu.: 0.0000000  
+ Median : 0.0000000  
+ Mean   :-0.0001457  
+ 3rd Qu.: 0.0000000  
+ Max.   : 0.0388854  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 4
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 3
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.9, K = 2
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 3
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 4
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.9, K = 3
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 3
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 4
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 6
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+
+Fitting model 3 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+lasso: lambda = 0.3280457, from 10-fold cv.
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+0.0000000 0.0000000 0.0000000 0.0002707 0.0000000 0.2333573 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.0764712, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.09041718, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.06094223, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.08335304, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.07106241, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.07160348, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.06872237, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.06814549, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.1013998, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.0791559, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.06824104, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.05761647, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.06504742, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.0739649, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.06681549, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.08331159, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.06838445, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.06880309, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.07396606, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.03195209, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.07454193, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.07612835, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.07633965, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.08891071, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.0662542, from 10-fold cv.
+
+Fitting model 4 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.09553508, from 10-fold cv.
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+-0.198087  0.000000  0.000000 -0.000293  0.000000  0.352255 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.004639033, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.007568746, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.004279295, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.01079237, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.003461938, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.01378521, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.009598303, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.03134475, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.03153763, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.01667896, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.01019702, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.03025652, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.008897114, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.009511436, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.01202636, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.01536282, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.01264553, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.02110294, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.01495253, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.01523702, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.03509832, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.01551673, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.01401234, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.01276532, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.07894526, from 10-fold cv.
+
+Fitting model 1 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+       V1            
+ Min.   :-0.0008723  
+ 1st Qu.: 0.0001775  
+ Median : 0.0003395  
+ Mean   : 0.0002432  
+ 3rd Qu.: 0.0004649  
+ Max.   : 0.0009150  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 5
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 5
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 5
+
+Fitting model 2 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.9, K = 2
+       V1            
+ Min.   :-1.411e-01  
+ 1st Qu.: 0.000e+00  
+ Median : 0.000e+00  
+ Mean   :-1.071e-05  
+ 3rd Qu.: 0.000e+00  
+ Max.   : 2.314e-01  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 5
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 8
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.9, K = 4
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.9, K = 4
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 7
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 5
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 7
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 9
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 10
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 10
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 10
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 10
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 10
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 10
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 10
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 10
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 10
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 10
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 10
+
+Fitting model 3 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+lasso: lambda = 0.1979512, from 10-fold cv.
+      Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+-0.6208608  0.0000000  0.0000000  0.0002143  0.0000000  0.5877796 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.04628186, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.04678037, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.0472115, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.04891426, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.04450293, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.04712796, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.04758944, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.04502686, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.05274737, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.04351339, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.03666217, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.05479751, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.05125198, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.05221964, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.05330125, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.05280242, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.05140564, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.02267702, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.05632481, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.06288806, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.04856549, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.02526773, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.03596269, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.06042638, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.0528983, from 10-fold cv.
+
+Fitting model 4 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.8066683, from 10-fold cv.
+      Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+-0.6436515  0.0000000  0.0000000  0.0002348  0.0000000  0.5782841 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.2396017, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.07729491, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.1066734, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.1371956, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.09049362, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.1179065, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.1829379, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.1270375, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.1008454, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.4201953, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.4522146, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.4055368, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.08590943, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.07341353, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.4041847, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.4592123, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.3682405, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.454217, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.1244692, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.178455, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.22027, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.06375243, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.05163131, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.124009, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.06954018, from 10-fold cv.
+
+Fitting model 1 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+       V1            
+ Min.   :-4.391e-04  
+ 1st Qu.:-1.655e-04  
+ Median : 1.339e-04  
+ Mean   : 5.693e-05  
+ 3rd Qu.: 2.179e-04  
+ Max.   : 5.604e-04  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 5
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+
+Fitting model 2 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 2
+       V1            
+ Min.   :-2.261e-02  
+ 1st Qu.: 0.000e+00  
+ Median : 0.000e+00  
+ Mean   :-7.661e-05  
+ 3rd Qu.: 0.000e+00  
+ Max.   : 3.185e-02  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 3
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 2
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 5
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 5
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 2
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 5
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 2
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 5
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 5
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 4
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 6
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 6
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 5
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 5
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 5
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 5
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 5
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 5
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 9
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 6
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 7
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 6
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 8
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 9
+
+Fitting model 3 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+lasso: lambda = 0.2991276, from 10-fold cv.
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+0.0000000 0.0000000 0.0000000 0.0001398 0.0000000 0.2237748 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.07040642, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.06925272, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.06513513, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.08690078, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.03193074, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.06136027, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.06101799, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.04691254, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.07364473, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.05343522, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.09416493, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.0578634, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.0697278, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.02856428, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.04018523, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.02750481, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.05331044, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.05946565, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.0628267, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.05415868, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.05550424, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.04942777, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.05514461, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.03716321, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.04534028, from 10-fold cv.
+
+Fitting model 4 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.5893429, from 10-fold cv.
+      Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+-5.624e-02  0.000e+00  0.000e+00  4.195e-05  0.000e+00  1.648e-01 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.04398178, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.03502958, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.1168572, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.04393859, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.2902294, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.08346736, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.06126016, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.02668474, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.1464104, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.04746074, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.03747125, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.08608847, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.08328217, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.08849758, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.07834413, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.2300081, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.1093426, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.029231, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.05068446, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.04181951, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.02814015, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.02733748, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.0272744, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.06412266, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.02647231, from 10-fold cv.
+
+Fitting model 1 of 1.
+Initialization: Fitting AFT model to uncensored observations.
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+-0.12193 -0.01431  0.09331  0.10694  0.22138  0.34946 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+	 Imputed dataset 2 of 5.
+	 Imputed dataset 3 of 5.
+	 Imputed dataset 4 of 5.
+	 Imputed dataset 5 of 5.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+	 Imputed dataset 2 of 5.
+	 Imputed dataset 3 of 5.
+	 Imputed dataset 4 of 5.
+	 Imputed dataset 5 of 5.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+	 Imputed dataset 2 of 5.
+	 Imputed dataset 3 of 5.
+	 Imputed dataset 4 of 5.
+	 Imputed dataset 5 of 5.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+	 Imputed dataset 2 of 5.
+	 Imputed dataset 3 of 5.
+	 Imputed dataset 4 of 5.
+	 Imputed dataset 5 of 5.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+	 Imputed dataset 2 of 5.
+	 Imputed dataset 3 of 5.
+	 Imputed dataset 4 of 5.
+	 Imputed dataset 5 of 5.
+
+Fitting model 1 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 5
+       V1            
+ Min.   :-0.0142446  
+ 1st Qu.:-0.0027169  
+ Median :-0.0002049  
+ Mean   :-0.0001214  
+ 3rd Qu.: 0.0025692  
+ Max.   : 0.0164188  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 8
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 5
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 7
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 9
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+
+Fitting model 2 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 4
+       V1            
+ Min.   :-0.0472776  
+ 1st Qu.: 0.0000000  
+ Median : 0.0000000  
+ Mean   :-0.0001007  
+ 3rd Qu.: 0.0000000  
+ Max.   : 0.0485112  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 7
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 4
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 4
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 8
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.2, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.2, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 4
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 4
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 4
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.2, K = 4
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 5
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 4
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 3
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 3
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 3
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 3
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 3
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.1, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.2, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 3
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 4
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 3
+
+Fitting model 3 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+lasso: lambda = 0.08167724, from 10-fold cv.
+      Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+-1.562e-01  0.000e+00  0.000e+00  7.135e-05  0.000e+00  2.134e-01 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.04131638, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.03972004, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.0473389, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.05188705, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.03790981, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.0635558, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.06047734, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.06248068, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.05752839, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.05760428, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.08367205, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.08529266, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.08673355, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.08832097, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.09383582, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.1085392, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.1174316, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.09663254, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.1078598, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.1156073, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.110134, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.1253365, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.132433, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.1278193, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.1225967, from 10-fold cv.
+
+Fitting model 4 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.09267558, from 10-fold cv.
+      Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+-1.497e-01  0.000e+00  0.000e+00  5.747e-05  0.000e+00  2.065e-01 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.05253372, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.1119674, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.121218, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.04508448, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.0524352, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.1613489, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.2046936, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.05906608, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.1048941, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.09795743, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.1196053, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.1037928, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.1294781, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.1078227, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.1032703, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.3720265, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.2690665, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.1523035, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.2379081, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.1168761, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.1894446, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.1316094, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.2305197, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.1724858, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.1684781, from 10-fold cv.
+
+Fitting model 1 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+       V1            
+ Min.   :-0.0098514  
+ 1st Qu.:-0.0022450  
+ Median :-0.0004187  
+ Mean   :-0.0002840  
+ 3rd Qu.: 0.0018154  
+ Max.   : 0.0117616  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 5
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+
+Fitting model 2 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 5
+       V1            
+ Min.   :-0.0175771  
+ 1st Qu.:-0.0034212  
+ Median : 0.0000000  
+ Mean   :-0.0002468  
+ 3rd Qu.: 0.0028989  
+ Max.   : 0.0217890  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 7
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.2, K = 7
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 7
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.2, K = 7
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 6
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.2, K = 9
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 7
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 7
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 8
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.2, K = 7
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 8
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 7
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 9
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 8
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 5
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 8
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 8
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 8
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 8
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 8
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 8
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 7
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 8
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 8
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 8
+
+Fitting model 3 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+lasso: lambda = 0.173021, from 10-fold cv.
+      Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+-0.7340356  0.0000000  0.0000000  0.0000167  0.0000000  0.7176621 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.1043577, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.1173099, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.1160144, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.1072043, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.1277718, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.1049614, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.1000237, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.1109338, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.1090646, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.09871817, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.1271819, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.1200809, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.1132937, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.1341018, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.1188598, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.1340121, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.1280579, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.132223, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.1413301, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.1273716, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.1440326, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.1116712, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.1306871, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.1429877, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.1516171, from 10-fold cv.
+
+Fitting model 4 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.2138555, from 10-fold cv.
+      Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+-1.1088221  0.0000000  0.0000000 -0.0002537  0.0000000  0.9588022 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.03163221, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.09012636, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.06710727, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.1511559, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.07702517, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.04139153, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.07215168, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.02150159, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.1998552, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.03559643, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.02762051, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.01862265, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.04350018, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.01980616, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.03558614, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.02677419, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.03516326, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.01520376, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.0545111, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.0304009, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.01804303, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.03168236, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.02692218, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.1390782, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.02015717, from 10-fold cv.
+
+Fitting model 1 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 2
+       V1            
+ Min.   :-0.0056229  
+ 1st Qu.:-0.0013767  
+ Median :-0.0002023  
+ Mean   :-0.0001479  
+ 3rd Qu.: 0.0010832  
+ Max.   : 0.0060347  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 2
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 2
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 2
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 2
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 2
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 2
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 2
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 2
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 2
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 2
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 2
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 1
+
+Fitting model 2 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 3
+       V1            
+ Min.   :-1.746e-02  
+ 1st Qu.:-9.507e-04  
+ Median : 0.000e+00  
+ Mean   :-3.049e-05  
+ 3rd Qu.: 5.656e-04  
+ Max.   : 1.711e-02  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 2
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 2
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 2
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 2
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 3
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 2
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 3
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 2
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 2
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 1
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 1
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 1
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 1
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 1
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 1
+
+Fitting model 3 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+lasso: lambda = 0.1292411, from 10-fold cv.
+      Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+-2.101e-01  0.000e+00  0.000e+00  4.742e-05  0.000e+00  2.551e-01 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.06329637, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.09981535, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.07411902, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.08744906, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.07463148, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.07427407, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.09902391, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.1136927, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.1026052, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.09826105, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.1043191, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.11745, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.08225255, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.09022902, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.07833406, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.1072222, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.07798156, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.08016668, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.112915, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.09380547, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.1083598, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.1005757, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.08905586, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.08753609, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.07470847, from 10-fold cv.
+
+Fitting model 4 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.1443824, from 10-fold cv.
+      Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+-2.187e-01  0.000e+00  0.000e+00  1.845e-05  0.000e+00  2.347e-01 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.2945498, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.1271106, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.1201495, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.5948639, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.5715837, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.4018758, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.1071392, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.7355602, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.6836917, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.1013009, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.2259718, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.2627073, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.1746076, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.2164274, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.2537604, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.08905499, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.09085667, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.3808807, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.176409, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.2155717, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.1247053, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.1137852, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.1966274, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.1322959, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.1472849, from 10-fold cv.
+
+Fitting model 1 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+       V1            
+ Min.   :-5.192e-03  
+ 1st Qu.:-1.109e-03  
+ Median :-8.948e-05  
+ Mean   :-9.538e-05  
+ 3rd Qu.: 9.372e-04  
+ Max.   : 6.081e-03  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 5
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 5
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 7
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 4
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 5
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 5
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 5
+	 Imputed dataset 2 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 6
+	 Imputed dataset 3 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 6
+	 Imputed dataset 4 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+	 Imputed dataset 5 of 5.
+eta = 0 
+
+Optimal parameters: eta = 0, K = 3
+
+Fitting model 2 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 3
+       V1            
+ Min.   :-5.787e-03  
+ 1st Qu.:-1.118e-03  
+ Median : 0.000e+00  
+ Mean   :-8.705e-05  
+ 3rd Qu.: 9.249e-04  
+ Max.   : 6.787e-03  
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 3
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.5, K = 3
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 3
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 3
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.4, K = 3
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 2
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 3
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 3
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 3
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.6, K = 3
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 3
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 3
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 3
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 2
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 2
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 2
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 2
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 2
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 2
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 2
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.3, K = 1
+	 Imputed dataset 2 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 2
+	 Imputed dataset 3 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 2
+	 Imputed dataset 4 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.8, K = 2
+	 Imputed dataset 5 of 5.
+eta = 0.1 
+eta = 0.2 
+eta = 0.3 
+eta = 0.4 
+eta = 0.5 
+eta = 0.6 
+eta = 0.7 
+eta = 0.8 
+eta = 0.9 
+
+Optimal parameters: eta = 0.7, K = 2
+
+Fitting model 3 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+lasso: lambda = 0.165281, from 10-fold cv.
+      Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+-0.4518874  0.0000000  0.0000000  0.0000348  0.0000000  0.4618632 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.1123321, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.1156372, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.0906202, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.1118385, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.1256614, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.1087758, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.1020829, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.1056596, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.1097958, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.114749, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.1254642, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.1160475, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.1225613, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.1400613, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.1243165, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.1515186, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.09067306, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.1463155, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.1397871, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.1533943, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+lasso: lambda = 0.1394997, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+lasso: lambda = 0.1423428, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+lasso: lambda = 0.1551728, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+lasso: lambda = 0.1395799, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+lasso: lambda = 0.1860967, from 10-fold cv.
+
+Fitting model 4 of 4.
+Initialization: Fitting AFT model to uncensored observations.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 0.8209276, from 10-fold cv.
+      Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
+-4.178e-02  0.000e+00  0.000e+00 -5.757e-05  0.000e+00  5.388e-02 
+Begin imputation iterations.
+ - iteration 1 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.1228172, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.1598594, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.2955082, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.07300204, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.1268803, from 10-fold cv.
+ - iteration 2 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.3604856, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.1737247, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.5, lambda = 0.2062328, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.1219183, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.4, lambda = 0.2597168, from 10-fold cv.
+ - iteration 3 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.1639518, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.347784, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.1761514, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.3, lambda = 0.3689613, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.187882, from 10-fold cv.
+ - iteration 4 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.1277116, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.6, lambda = 0.2020532, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.2, lambda = 0.5994209, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.1, lambda = 1.127786, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.1558447, from 10-fold cv.
+ - iteration 5 of 5.
+	 Imputed dataset 1 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.1433314, from 10-fold cv.
+	 Imputed dataset 2 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.9, lambda = 0.1861692, from 10-fold cv.
+	 Imputed dataset 3 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.8, lambda = 0.1797119, from 10-fold cv.
+	 Imputed dataset 4 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.1731483, from 10-fold cv.
+	 Imputed dataset 5 of 5.
+Running CV for elastic net on 4 cores.
+elnet: alpha = 0.7, lambda = 0.1849621, from 10-fold cv.
+
+Create ensembles and append to results.
+[1] "EFS"
+iter k = 1 , i = 1 
+iter k = 2 , i = 1 
+iter k = 2 , i = 2 
+iter k = 2 , i = 3 
+iter k = 2 , i = 4 
+iter k = 3 , i = 1 
+iter k = 3 , i = 2 
+iter k = 3 , i = 3 
+iter k = 3 , i = 4 
+iter k = 4 , i = 1 
+iter k = 4 , i = 2 
+iter k = 4 , i = 3 
+iter k = 4 , i = 4 
+iter k = 5 , i = 1 
+iter k = 5 , i = 2 
+iter k = 5 , i = 3 
+iter k = 5 , i = 4 
+iter k = 6 , i = 1 
+[1] "OS"
+iter k = 1 , i = 1 
+iter k = 2 , i = 1 
+iter k = 2 , i = 2 
+iter k = 2 , i = 3 
+iter k = 2 , i = 4 
+iter k = 3 , i = 1 
+iter k = 3 , i = 2 
+iter k = 3 , i = 3 
+iter k = 3 , i = 4 
+iter k = 4 , i = 1 
+iter k = 4 , i = 2 
+iter k = 4 , i = 3 
+iter k = 4 , i = 4 
+iter k = 5 , i = 1 
+iter k = 5 , i = 2 
+iter k = 5 , i = 3 
+iter k = 5 , i = 4 
+iter k = 6 , i = 1 
+
+
+Log closed 2018-04-17 11:20:59
+
+***
+Notes:
+
+seed = 100
+sessionInfo()
+
+R version 3.4.4 (2018-03-15)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: macOS High Sierra 10.13.4
+
+Matrix products: default
+BLAS: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/3.4/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] parallel  stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+ [1] survcomp_1.28.5   prodlim_1.6.1     gdata_2.18.0      Hmisc_4.1-1      
+ [5] Formula_1.2-2     lattice_0.20-35   km.ci_0.5-2       boot_1.3-20      
+ [9] survminer_0.4.2   ggpubr_0.1.6      magrittr_1.5      ggplot2_2.2.1    
+[13] RankAggreg_0.6.4  doParallel_1.0.11 iterators_1.0.9   glmnet_2.0-16    
+[17] foreach_1.4.4     Matrix_1.2-14     spls_2.2-2        truncnorm_1.0-8  
+[21] maxLik_1.3-4      miscTools_0.6-22  survival_2.41-3   dplyr_0.7.4      
+
+loaded via a namespace (and not attached):
+ [1] tidyr_0.8.0          splines_3.4.4        gtools_3.5.0        
+ [4] microbenchmark_1.4-4 rmeta_3.0            assertthat_0.2.0    
+ [7] latticeExtra_0.6-28  bootstrap_2017.2     yaml_2.1.18         
+[10] survivalROC_1.0.3    pillar_1.2.1         backports_1.1.2     
+[13] glue_1.2.0           digest_0.6.15        RColorBrewer_1.1-2  
+[16] checkmate_1.8.5      colorspace_1.3-2     sandwich_2.4-0      
+[19] cmprsk_2.2-7         htmltools_0.3.6      plyr_1.8.4          
+[22] psych_1.8.3.3        pkgconfig_2.0.1      broom_0.4.4         
+[25] purrr_0.2.4          xtable_1.8-2         scales_0.5.0        
+[28] lava_1.6.1           KMsurv_0.1-5         tibble_1.4.2        
+[31] htmlTable_1.11.2     nnet_7.3-12          lazyeval_0.2.1      
+[34] mnormt_1.5-5         nlme_3.1-137         foreign_0.8-69      
+[37] SuppDists_1.1-9.4    tools_3.4.4          data.table_1.10.4-3 
+[40] stringr_1.3.0        munsell_0.4.3        cluster_2.0.7-1     
+[43] bindrcpp_0.2.2       pls_2.6-0            compiler_3.4.4      
+[46] rlang_0.2.0          grid_3.4.4           rstudioapi_0.7      
+[49] htmlwidgets_1.0      base64enc_0.1-3      gtable_0.2.0        
+[52] codetools_0.2-15     reshape2_1.4.3       R6_2.2.2            
+[55] gridExtra_2.3        zoo_1.8-1            knitr_1.20          
+[58] survMisc_0.5.4       bindr_0.1.1          KernSmooth_2.23-15  
+[61] stringi_1.1.7        Rcpp_0.12.16         rpart_4.1-13        
+[64] acepack_1.4.1  

@@ -2,13 +2,9 @@ CAMDA 2017: Neuroblastoma challenge
 
 For a summary, see `doc/CAMDA_presentation`. 
 
-All output is saved to the output/ directory. To recreate the output, simply delete the output/ folder and run `src/main.R`. All models will be refitted (using the processed data in the data/ folder), and the output figures and tables will be created.
-
-Note that the current output is from fitting the models without using the GeneCards dataset to subset genes. Not all figures and tables have been generated. 
+All output is saved to the output/ directory. To recreate the output, delete the output/ folder and run `src/main.R`. All models will be refitted (using the processed data in the data/ folder), and the output figures and tables will be created.
  
-The raw datasets can be obtained from the GEO database with accession number GSE49711.
-
-
+The raw datasets can be obtained from the GEO database with accession number GSE49711. Processed data is available and stored in data/processed/
 
 Project organization:
   bin/ 

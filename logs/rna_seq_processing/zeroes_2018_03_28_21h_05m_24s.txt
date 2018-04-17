@@ -1,0 +1,25 @@
+Log opened 2018-03-28 21:05:24 
+
+2018-03-28 21:05:24 Filtering RNA-Seq Data...
+Running `filter_rna_seq_zeroes()` with threshold = 0.8 and training indicies not provided.
+Filtering RNA-Seq data: removing columns if proportion of zeros is at least 80%.
+No training index provided.
+        Default partition loaded from: data/patient_data 
+Loading RNA-seq data from `data/processed/genes_ncbi`.
+	4003 of 28239 columns removed with >= 80% zeroes.
+Saving filtered saved to `data/processed/genes_filtered_zeroes_80`.
+
+Loading RNA-seq data from `data/processed/transcripts_ncbi`.
+	19482 of 217392 columns removed with >= 80% zeroes.
+Saving filtered saved to `data/processed/transcripts_filtered_zeroes_80`.
+
+Loading RNA-seq data from `data/processed/introns_raw`.
+	0 of 340270 columns removed with >= 80% zeroes.
+Saving filtered saved to `data/processed/introns_filtered_zeroes_80`.
+
+
+
+Log closed 2018-03-28 21:08:21
+
+***
+Notes:

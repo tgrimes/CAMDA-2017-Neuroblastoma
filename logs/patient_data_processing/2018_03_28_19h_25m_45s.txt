@@ -1,0 +1,9 @@
+Processing patient data from: data/raw/RNA-SEQ_Magic_AceView_GSE49711/GSE49711_series_matrix.txt 
+Processing the raw data using `run_processing.R`.
+Initializing required packages and files.
+
+
+Log closed 2018-03-28 19:40:06
+
+***
+Notes:

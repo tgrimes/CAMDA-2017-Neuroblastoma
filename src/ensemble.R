@@ -3,13 +3,13 @@
 # Bagging
 #
 ###############################################################################
-ensemble <- function(results_file, n_bags = 20) {
- 
-  #results_file <- "output/results/all_results_EFS_2017_07_13_03_02_01"
+ensemble <- function(results_file, 
+                     output_dir = "output/results/",
+                     n_bags = 20,
+                     seed = 100) {
   load(results_file)
   best_results_data <- all_results$transcripts_introns$model$elnet_model$data
   
-  # Remove the transcripts + intron model (stored as all_results[5]).
   temp <- attributes(all_results)
   all_results <- all_results[c(1, 2, 3, 4)]
   for(i in 2:length(temp)) {
@@ -22,7 +22,8 @@ ensemble <- function(results_file, n_bags = 20) {
   # transcripts + introns model using elastic net (best_results_data).
   ensemble <- fit_ensemble(n_bags, 
                            all_results = all_results, 
-                           best_results_data = best_results_data)
+                           best_results_data = best_results_data,
+                           seed = seed)
   
   # Obtain the predicted values from ensemble on testing set.
   training_index <- ensemble$training_index
@@ -43,7 +44,7 @@ ensemble <- function(results_file, n_bags = 20) {
   #ensemble_coef_summary(ensemble)
   
   survival_type <- attr(all_results, "survival_type")
-  save(all_results, file = paste("output/results/with_ensemble", survival_type,
+  save(all_results, file = paste(output_dir, "with_ensemble", survival_type,
                                  timestamp(), sep = "_"))
 }
 
@@ -54,7 +55,8 @@ fit_ensemble <- function(n_bags,
                          ensemble_dir = "output/ensemble/",
                          log_dir = "logs/ensemble/",
                          best_results_data = NULL,
-                         estimate_censored_times = TRUE) {
+                         estimate_censored_times = TRUE,
+                         seed = 100) {
   if(is.null(all_results) & is.null(results_file)) {
     stop("In bagging(): Either all_results object or results_file string 
          must be provided.")
@@ -65,8 +67,9 @@ fit_ensemble <- function(n_bags,
   open_log(log_file)
   cat(format(Sys.time()), "Running `fit_ensemble()`...\n")
   
-  seed <- 100 
-  set.seed(seed)
+  if(!is.null(seed)) {
+    set.seed(seed)
+  }
   cat("Setting seed to", seed, "\n")
 
   # Load previous fit:

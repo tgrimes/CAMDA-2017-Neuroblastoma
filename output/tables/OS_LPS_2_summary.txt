@@ -1,0 +1,19 @@
+outcome 	& prob 	& se 	& n 	& prob 	& se 	& n 	& data 	& model 	& p value \\
+OS 	& 0.57 	& 0.09 	& 31 	& 0.79 	& 0.05 	& 59 	& clinical only 	& simple 	& $0.574$ \\
+OS 	& 0.6 	& 0.07 	& 57 	& 0.91 	& 0.05 	& 33 	& genes 	& pls 	& $0.081$ \\
+OS 	& 0.6 	& 0.06 	& 60 	& 0.93 	& 0.05 	& 30 	& genes 	& spls 	& $0.082$ \\
+OS 	& 0.55 	& 0.09 	& 29 	& 0.79 	& 0.05 	& 61 	& genes 	& lasso 	& $0.166$ \\
+OS 	& 0.5 	& 0.1 	& 24 	& 0.79 	& 0.05 	& 66 	& genes 	& elnet 	& $0.164$ \\
+OS 	& 0.57 	& 0.07 	& 55 	& 0.94 	& 0.04 	& 35 	& transcripts 	& pls 	& $0.128$ \\
+OS 	& 0.56 	& 0.07 	& 47 	& 0.88 	& 0.05 	& 43 	& transcripts 	& spls 	& $0.002$ \\
+OS 	& 0.41 	& 0.12 	& 17 	& 0.78 	& 0.05 	& 73 	& transcripts 	& lasso 	& $0.048$ \\
+OS 	& 0.57 	& 0.09 	& 33 	& 0.79 	& 0.05 	& 57 	& transcripts 	& elnet 	& $0.081$ \\
+OS 	& 0.61 	& 0.07 	& 56 	& 0.88 	& 0.06 	& 34 	& introns 	& pls 	& $0.124$ \\
+OS 	& 0.51 	& 0.08 	& 36 	& 0.85 	& 0.05 	& 54 	& introns 	& spls 	& $0.027$ \\
+OS 	& 0.47 	& 0.1 	& 25 	& 0.81 	& 0.05 	& 65 	& introns 	& lasso 	& $0.137$ \\
+OS 	& 0.43 	& 0.1 	& 25 	& 0.82 	& 0.05 	& 65 	& introns 	& elnet 	& $0.017$ \\
+OS 	& 0.57 	& 0.07 	& 56 	& 0.94 	& 0.04 	& 34 	& transcripts introns 	& pls 	& $0.092$ \\
+OS 	& 0.54 	& 0.07 	& 49 	& 0.9 	& 0.05 	& 41 	& transcripts introns 	& spls 	& $0.001$ \\
+OS 	& 0.4 	& 0.11 	& 21 	& 0.81 	& 0.05 	& 69 	& transcripts introns 	& lasso 	& $0.036$ \\
+OS 	& 0.4 	& 0.11 	& 22 	& 0.8 	& 0.05 	& 68 	& transcripts introns 	& elnet 	& $0.009$ \\
+OS 	& 0.42 	& 0.1 	& 25 	& 0.82 	& 0.05 	& 65 	& ensemble 	& ensemble 	& $0.016$ \\

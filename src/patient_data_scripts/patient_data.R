@@ -1,6 +1,5 @@
-create_patient_data <- function() {
-  output_data_dir <- "data/"
-  raw_data_dir <- "data/raw/"
+create_patient_data <- function(output_data_dir = "data/",
+                                raw_data_dir = "data/raw/") {
   
   # Initialize output to text file. This records each use of the script.
   log_file <- paste("logs/patient_data_processing/", timestamp(), ".txt", sep = "")

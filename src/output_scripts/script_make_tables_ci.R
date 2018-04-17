@@ -1,7 +1,7 @@
 #library(survival)
 #library(survminer)
 
-ci.km <- function(all_results, cutoff_years = 2, hr = NULL, year = 2) {
+get_km_ci <- function(all_results, cutoff_years = 2, hr = NULL, year = 2) {
   outcome <- attr(all_results, "survival_type")
   training_index <- attr(all_results, "training_index") # Needed for subsetting.
   rate <- 1 / 365 # Multiplier for days. 1/365 gives survival in year.
