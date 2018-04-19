@@ -9,7 +9,6 @@ The raw datasets can be obtained from the GEO database with accession number GSE
 Project organization:
   bin/ 
     | - currently empty (compiled code/external scripts go here).
-    
   data/ 
     | raw/ 
     | - | ... [Not uploaded due to large file sizes.]
@@ -17,15 +16,11 @@ Project organization:
     | - | ... [The raw data is processed by `src/rna_seq_data_scripts/run_processing.R`, and the results are saved here.]
     | patient_data : extracted patient data from raw data. See `src/patient_data_scripts/patient_data.R`.
     | gene_cards : list of genes related to neuroblastoma, obtained from the GeneCards database.
-     
   docs/ 
     | CAMDA_presentation : Powerpoint presentation given at the 2017 CAMDA conference.
-    
   logs/
     | ... [When scripts are run, output is directed to text files in this directory.]
-    
   neuroblastoma.Rproj 
-
   output/
     | ensemble/
     | - | ... [Models fit via ensemble method are saved here.]
@@ -38,9 +33,7 @@ Project organization:
     | - | ... [R objects containing list of all fitted models.]
     | tables/
     | - | ... [Table summarizing Kaplan-Meier estimates for 2 year survival for each model, formatted using LaTex.]
-    
   README.txt
-
   src/
     | ensemble.R
     | fit.R
