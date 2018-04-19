@@ -13,5 +13,5 @@ generate_figures_and_tables <- function(results_dir = "output/results/",
   make_km_table(results_list, tables_dir, cutoff_years = 2)
   
   # Make performance measure plots.
-  make_performance_plots(results_list, figures_dir, B = 100)
+  make_performance_plots(results_list, figures_dir, B = 1000)
 }

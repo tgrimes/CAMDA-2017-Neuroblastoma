@@ -18,7 +18,7 @@ init <- function() {
   dir.create("output/figures/km", recursive = TRUE)
   dir.create("output/figures/measures", recursive = TRUE)
   dir.create("output/results", recursive = TRUE)
-  dir.create("output/tables", recursive = TRUE)
+  dir.create("output/tables/gene_sets", recursive = TRUE)
   
   #Required files:
   packages <- c("dplyr", "survival", "maxLik", "truncnorm", "spls", "glmnet",

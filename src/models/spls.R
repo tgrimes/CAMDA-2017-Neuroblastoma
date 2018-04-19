@@ -94,7 +94,7 @@ predict.spls_model <- function(fit, x) {
 }
 
 test.spls_model <- function() {
-  n <- 10
+  n <- 50
   p <- 100
   K = 1
   eta = 0.5
@@ -102,9 +102,16 @@ test.spls_model <- function() {
   true_coef <- rnorm(p) * rbinom(p, 1, 0.2)
   noise <- rnorm(n, 0, 0.2)
   y <- x %*% true_coef + noise
+  observed <- rbinom(n, 1, 0.9)
   
-  fit <- spls(x, y, K = K, eta = eta)
-  print(coef(fit))
+  x <- scale(x)
+  y <- scale(y)
+  
+  fit <- spls_model(y, x, observed, K = 1:10)
+  cbind(true_coef, fit$beta_hat)
+  
+  fit <- spls(x, y, K, eta)
+  cbind(true_coef, coef(fit))
   
   par(mfrow = c(1, 2))
   newx <- scale(x, fit$meanx, fit$normx)

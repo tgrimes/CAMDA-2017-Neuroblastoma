@@ -1,0 +1,6 @@
+Pathway 	& Count 	& Size 	& P-value 	& BH \\
+Terpenoid backbone biosynthesis 	& 4 	& 8 	& 0.01 	& 0.906 \\
+Metabolic pathways 	& 29 	& 304 	& 0.016 	& 0.847 \\
+Valine, leucine and isoleucine degradation 	& 5 	& 20 	& 0.032 	& 0.911 \\
+Biosynthesis of antibiotics 	& 12 	& 98 	& 0.037 	& 0.882 \\
+Fatty acid metabolism 	& 5 	& 21 	& 0.037 	& 0.82 \\

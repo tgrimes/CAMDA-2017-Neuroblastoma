@@ -65,12 +65,19 @@ plot.km <- function(all_results, cutoff_years = 2, file_name = NULL) {
     
     xname <- result_name
     if(length(grep("clinical", xname, ignore.case = TRUE)) == 1) {
-      main <- "clinical"
+      main <- "null model"
     } else if(length(grep("ensemble", xname, ignore.case = TRUE)) == 1) {
       main <- "ensemble"
     } else {
-      xname <- gsub("_", " ", xname)
-      main <- paste(xname, method_names[i], sep = " - ")
+      model_name_list <- c("genes", "transcripts", "introns", "transcripts_introns")
+      model_symbol_list <- c("G", "T", "I", "TI")
+      
+      method_name_list <- c("pls", "spls", "lasso", "elnet")
+      method_symbol_list <- c("1", "2", "3", "4")
+      
+      main <- paste(model_symbol_list[which(model_name_list %in% xname)], 
+                    method_symbol_list[which(method_name_list %in% method_names[i])], 
+                    sep = "-")
     }
     
     plot(sfit, main = main, 
@@ -200,7 +207,7 @@ plot.km.all <- function(all_results, cutoff_years = 2, file_name = NULL,
     
     xname <- result_name
     if(length(grep("clinical", xname, ignore.case = TRUE)) == 1) {
-      main <- "clinical"
+      main <- "null"
     } else if(length(grep("ensemble", xname, ignore.case = TRUE)) == 1) {
       main <- "ensemble"
     } else {

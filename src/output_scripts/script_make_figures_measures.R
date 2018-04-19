@@ -152,9 +152,12 @@ plot.measures <- function(measures,
     y_range <- c(min(measures$upper), max(measures$lower))
     #y_range <- c(min(measures$lower), max(measures$upper))
     y_name <- "log10 p-value"
-    
+  } else if(length(grep("c-index", name)) > 0) {
+    y_range <- c(0, 1)
+    y_name <- name
   } else {
-    y_range <- c(min(0, min(measures$lower)), max(measures$upper, 0))
+    y_range <- c(min(0, min(measures$lower)), 
+                 max(measures$upper[measures$upper < 50], 0))
     y_name <- name
   }
   color <- c("black", rep(c("blue", "red", "orange", "green"), 4), "gray")
@@ -189,6 +192,9 @@ plot.measures <- function(measures,
            pch = "-", cex = 2, col = "black") #col = color[i])
   }
   abline(h = 0)
+  if(name == "c-index") {
+    abline(h = 1)
+  }
   
   # Conclude saving plots if file_name was provided.
   if(!is.null(file_name)) {
@@ -213,6 +219,23 @@ make_performance_plots <- function(results_list, figures_dir, B = 1000) {
     for(measure in unique(measures$measure)) {
       plot.measures(measures, measure, get_file_name(measure), outcome)
     }
+    
+    # Save table of values. Apply transformation to logrank test statistic.
+    log_transform <- function(x) log10(1 - pchisq(x, 1))
+    measures[grepl("LPS", measures$measure), ] <- measures %>%
+      filter(grepl("LPS", measure)) %>%
+      mutate(estimate = log_transform(estimate),
+             lower = log_transform(lower),
+             upper = log_transform(upper))
+    measures <- measures %>%
+      mutate(estimate = round(estimate, 4),
+             lower = round(lower, 4),
+             upper = round(upper, 4))
+    write.csv(measures, paste0(figures_dir, outcome, "_measures.csv"),
+              row.names = FALSE, quote = FALSE)
+    
+    measures %>%
+      filter(measure == "RMSE")
   }
 }
 
