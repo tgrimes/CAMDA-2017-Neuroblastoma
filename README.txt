@@ -58,7 +58,7 @@ Project organization:
     | plots.R
     | rna-seq_data_scripts/
     | - | ... [scripts for extracting patient RNA-seq data.]
-    
+
     
     
 sessionInfo()
@@ -101,3 +101,4 @@ loaded via a namespace (and not attached):
 [58] survMisc_0.5.4       bindr_0.1.1          KernSmooth_2.23-15  
 [61] stringi_1.1.7        Rcpp_0.12.16         rpart_4.1-13        
 [64] acepack_1.4.1    
+
